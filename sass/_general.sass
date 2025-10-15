@@ -1,0 +1,212 @@
+h1, h2, h2, h3, h4, h5, h6, p, a, button
+    font-family: NotoSans 
+
+img
+    width: 100%
+// кнопка 
+.btn
+    background-color: $blue
+    color: $white
+    width: 160px
+    padding-top: 11px
+    padding-bottom: 11px
+    font-weight: 400
+    font-size: 13px
+    transition: all 1s
+    &:hover
+        background-color: $black
+        transition: all 1s
+        
+    &--darck
+        background-color: $purple
+    &--empty
+        background-color: #ffffff00
+        outline: 2px solid $blue
+        outline-offset: -2px
+        &:hover
+            background-color: $blue
+            transition: all 1s
+
+// кнопка 
+
+// ярлыки
+.lable
+    width: fit-content
+    font-weight: 400
+    font-size: 13px
+    line-height: 169%
+    letter-spacing: 0.09em
+    text-transform: uppercase
+    padding-top: 7px
+    padding-bottom: 9px
+    padding-right: 15px
+    padding-left: 15px
+    color: $white
+    background-color: $blue
+    margin-bottom: -48px
+    position: relative
+    &--darck
+        background-color: $purple
+// ярлыки
+
+// карточки
+.card
+    transition: all 1s
+    &:hover
+        box-shadow: 0px 18px 21px -7px rgba(1, 1, 1, 0.12)
+        transform: translateY(-1px)
+    &-inner
+        padding: 30px
+        border: 1px solid #d3d8e4
+        height: 500px
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+    &-img 
+        // margin-bottom: 20px
+    &-author
+        font-weight: 400
+        font-size: 13px
+        line-height: 154%
+        letter-spacing: 0.06em
+        color: $blue
+        transition: all 1s
+        // margin-top: 20px
+        &:hover
+            font-size: 14px
+            transition: all 1s
+    &-author--darck
+        color: $purple
+    &-title
+        font-weight: 400
+        font-size: 22px
+        line-height: 136%
+        letter-spacing: 0.05em
+        color: $black
+        // margin-top: 6px
+    &-text 
+        font-weight: 400
+        font-size: 16px
+        line-height: 162%
+        letter-spacing: 0.05em
+        color: $black
+        // margin-top: 16px
+        // margin-bottom: 30px
+// карточки
+
+// флекс
+.flex-box
+    display: flex
+    justify-content: space-around
+    align-items: center
+// флекс
+
+
+.wrapper
+    min-height: 100%
+    width: 100%
+    overflow: hidden
+.container
+    max-width: 1150px 
+    height: 100%
+    margin: 0 auto
+.header
+    height: 396px
+    background-image: url('/img/bg-firstsection.jpg')
+    padding-top: 140px 
+    .header-title
+        color: $white
+        font-weight: 700
+        font-size: clamp(46px, 3vw, 62px)
+        line-height: 110%
+        letter-spacing: 0.02em
+        text-align: center
+.card_section
+    padding-top: 100px
+    padding-bottom: 100px
+    &-grid
+        display: grid
+        grid-template-columns: repeat(3, 1fr)
+        grid-template-rows: repeat(2, 1fr)
+        grid-column-gap: 30px
+        grid-row-gap: 30px
+.action
+    background: $black
+    padding-top: 100px
+    padding-bottom: 100px
+    padding-left: 26px
+    padding-right: 26px
+    &-text 
+        max-width: 555px
+    &-title 
+        font-weight: 700
+        font-size: 62px
+        line-height: 110%
+        letter-spacing: 0.02em
+        color: $blue
+    &-article 
+        font-weight: 400
+        font-size: 22px
+        line-height: 136%
+        letter-spacing: 0.05em
+        color: $white
+        margin-top: 22px
+        margin-bottom: 40px
+    button:first-child
+        margin-right: 16px
+    .action-img img:last-child
+        display: none
+    .action .action-img img:first-child
+        display: block
+
+
+.slider
+    padding-top: 100px
+    padding-bottom: 100px
+    .card
+        margin-right: 30px !important
+    .flex-box
+        margin-bottom: 40px
+    .arrows
+        margin-right: 25px
+        background: #ffffff00
+
+.slick-prev
+    left: 10px
+    z-index: 100
+    top: 580px
+    background-image: url('../img/arrow-left.svg') !important
+    width: 13px
+    height: 26px
+.slick-prev:before
+    content: ''
+.slick-prev:hover
+    background-image: url('../img/arrow-left.svg') !important
+
+.slick-next
+    z-index: 100
+    left: 40px
+    top: 580px
+    background-image: url('../img/arrow-right.svg') !important
+    width: 13px
+    height: 26px
+.slick-next:before
+    content: ''
+
+.slick-slide
+    margin-right: 30px
+
+
+.slick-list
+    height: 600px
+    padding-top: 20px
+
+
+
+    
+
+
+        
+
+                
+        
